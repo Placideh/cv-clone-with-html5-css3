@@ -18,17 +18,20 @@ header > h1 {
     left:1.2em;
     top:.1em;
     font-size:60px;
+    color:rgb(6, 6, 126);
 }
 .headingTwo {
     position: absolute;
     left:6.7em;
     top:.1em;
     font-size:60px;
+    color:rgb(6, 6, 126);
 }
 header >h5 {
     position: absolute;
     left:5.5em;
-    top:6.5em;
+    top:7em;
+    color:rgb(6, 6, 126);
 }
 .flag {
     position:absolute;
@@ -38,12 +41,20 @@ header >h5 {
 .typography {
     position:absolute;
     right:7.5em;
-    top:8em;
+    top:9.5em;
     font-size: 10px;
 }
 .bio{
-    display:flex;
+    display:grid;
     position:relative;
+    grid-template-columns: 1fr 5fr;
+    margin-bottom: 12em;
+  }
+.bioGeneral{
+    display:grid;
+    position:relative;
+    grid-template-columns: 1fr 5fr;
+    margin-bottom: 6em;
   }
 
   .bioTitle {
@@ -60,7 +71,6 @@ header >h5 {
     position:absolute;
     height: 10em;
     left:25.5em;
-
 }
 .myImage {
     position:absolute;
@@ -73,9 +83,82 @@ header >h5 {
       top:11.9em;
       width:251%;
   }
+.borderDownE {
+      border-bottom:4px solid #f4f4f4;
+      position:absolute;
+      top:9em;
+      width:351%;
+  }
+.borderDownEx {
+      border-bottom:4px solid #f4f4f4;
+      position:absolute;
+      top:9em;
+      width:651%;
+  }
+  .borderSDownE {
+    border-bottom:4px solid #f4f4f4;
+    position:absolute;
+    top:9em;
+    width:100%;
+  }
   .borderSDown {
     border-bottom:4px solid #f4f4f4;
     position:absolute;
     top:11.9em;
     width:100%;
   }
+  .borderSDownO {
+    border-bottom:4px solid #f4f4f4;
+    position:absolute;
+    top:7.3em;
+    width:100%;
+  }
+  
+
+  .experience {
+      width:880px;
+      position: absolute;
+      padding-bottom: 4em;
+      border-bottom:4px solid #f4f4f4;
+      
+      /* border:1px solid red; */
+  }
+ 
+  .skills {
+      display:flex;
+      position: absolute;
+  }
+  .skillBox {
+      margin-right: 15em;
+  }
+  a{
+    height: 30px;
+    background:#000;
+    color:#fff;
+    position: absolute;
+    right:4em;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:5px;
+    text-align: center;
+    bottom:-45em;
+  }
+  a:hover{
+    background-color:green;
+    color:#ddd;
+  }
+.bioLanguage {
+
+}
+.borderSDownL {
+    border-bottom:4px solid #f4f4f4;
+    position:absolute;
+    top:18em;
+    width:100%; 
+}
+.borderDownL{
+    border-bottom:4px solid #f4f4f4;
+    position:absolute;
+    top:18em;
+    width:55em; 
+}
