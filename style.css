@@ -2,6 +2,8 @@ body{
     width:100%;
     margin:auto;
     box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 
   }
 header {
@@ -15,14 +17,15 @@ header {
 }
 header > h1 {
     position: absolute;
-    left:1.2em;
+    left:1.1em;
     top:.1em;
     font-size:60px;
     color:rgb(6, 6, 126);
+
 }
 .headingTwo {
     position: absolute;
-    left:6.7em;
+    left:6.3em;
     top:.1em;
     font-size:60px;
     color:rgb(6, 6, 126);
@@ -35,20 +38,25 @@ header >h5 {
 }
 .flag {
     position:absolute;
-    left:76em;
+    left:79.5em;
     top:3em;
 }
 .typography {
     position:absolute;
-    right:7.5em;
+    right:8.5em;
     top:9.5em;
     font-size: 10px;
+    color:rgb(115, 204, 245);
 }
 .bio{
     display:grid;
     position:relative;
     grid-template-columns: 1fr 5fr;
     margin-bottom: 12em;
+  }
+  .myLabel{
+    color:rgb(5, 5, 90);
+    font-weight: bold;  
   }
 .bioGeneral{
     display:grid;
@@ -66,16 +74,22 @@ header >h5 {
     position:inherit;
     top:-1em;
     font-size: 14.5px;
+    color:rgb(5, 5, 90);
+    font-weight: bold;
 }
 .bioDetails {
     position:absolute;
     height: 10em;
     left:25.5em;
 }
+.bioDetails >h4{
+    color:rgb(5, 5, 90);
+    font-weight: bold;
+}
 .myImage {
     position:absolute;
     top:1em;
-    right:-33em;
+    right:-35.5em;
   }
 .borderDown {
       border-bottom:4px solid #f4f4f4;
@@ -141,15 +155,13 @@ header >h5 {
     border-radius: 5px;
     padding:5px;
     text-align: center;
-    bottom:-45em;
+    /* bottom:-45em; */
   }
   a:hover{
     background-color:green;
     color:#ddd;
   }
-.bioLanguage {
 
-}
 .borderSDownL {
     border-bottom:4px solid #f4f4f4;
     position:absolute;
@@ -161,4 +173,15 @@ header >h5 {
     position:absolute;
     top:18em;
     width:55em; 
+}
+.bioDetails >h3 {
+    color:rgb(5, 5, 90);
+    font-weight: bold;
+}
+.lightBlue{
+    color:rgb(115, 204, 245);
+    font-weight: bold;
+}
+.blueish {
+    color:rgb(30, 30, 177);
 }
