@@ -1,0 +1,81 @@
+body{
+    width:100%;
+    margin:auto;
+    box-sizing:border-box;
+
+  }
+header {
+    background:#f4f4f3;
+    position:relative;
+    top:-1.5em;
+    width:100%;
+    margin:auto;
+    height:10em;
+    
+}
+header > h1 {
+    position: absolute;
+    left:1.2em;
+    top:.1em;
+    font-size:60px;
+}
+.headingTwo {
+    position: absolute;
+    left:6.7em;
+    top:.1em;
+    font-size:60px;
+}
+header >h5 {
+    position: absolute;
+    left:5.5em;
+    top:6.5em;
+}
+.flag {
+    position:absolute;
+    left:76em;
+    top:3em;
+}
+.typography {
+    position:absolute;
+    right:7.5em;
+    top:8em;
+    font-size: 10px;
+}
+.bio{
+    display:flex;
+    position:relative;
+  }
+
+  .bioTitle {
+    position:relative;
+    margin-right: 1em;
+    left:4.5em;
+  }
+  .bioTitle >h3 {
+    position:inherit;
+    top:-1em;
+    font-size: 14.5px;
+}
+.bioDetails {
+    position:absolute;
+    height: 10em;
+    left:25.5em;
+
+}
+.myImage {
+    position:absolute;
+    top:1em;
+    right:-33em;
+  }
+.borderDown {
+      border-bottom:4px solid #f4f4f4;
+      position:absolute;
+      top:11.9em;
+      width:251%;
+  }
+  .borderSDown {
+    border-bottom:4px solid #f4f4f4;
+    position:absolute;
+    top:11.9em;
+    width:100%;
+  }
